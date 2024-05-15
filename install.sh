@@ -50,3 +50,4 @@ shortcutCreator
 else
 already
 fi
+npm install
