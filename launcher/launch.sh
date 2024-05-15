@@ -5,17 +5,14 @@
 ##################################################################
 
 
-# wdir=$PWD
-
-
 #functions
 function nodeIndex () {
-node ../index.js
+node index.js
 sleep 1
 }
 
 electron() {
-npm exec electron ../electron/main.js
+npm exec electron ./electron/main.js
 }
 
 
