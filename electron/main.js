@@ -2,8 +2,8 @@ const { app, BrowserWindow } = require('electron')
 
 const createWindow = () => {
     const compactWin = new BrowserWindow({
-      width: 900,
-      height: 680,
+      width: 980,
+      height: 735,
       webPreferences: {
         preload: 'http://localhost:5023/Conceal-Network'
       }
