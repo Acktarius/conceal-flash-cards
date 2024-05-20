@@ -1,5 +1,5 @@
 # conceal-flash-cards
-learn about Conceal Network with Flash Cards
+learn about cryptocurrency and blockchain and Conceal Network in particular, using Flash Cards
 
 # Install
 
