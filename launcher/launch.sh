@@ -5,7 +5,7 @@
 ##################################################################
 
 #declarations functions
-trap "trap - SIGTERM && kill 0" SIGINT SIGTERM EXIT
+
 
 #main
 
@@ -13,5 +13,6 @@ set -e
 
 node index.js &
 nodeIndexPID=$!
+trap "kill -15 ${nodeIndexPID}" EXIT
 npm exec electron ./electron/main.js
-kill -15 ${nodeIndexPID}
+
