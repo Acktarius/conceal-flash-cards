@@ -6,7 +6,6 @@
 
 #declarations functions
 
-
 #main
 
 set -e

@@ -8,7 +8,7 @@ const createWindow = () => {
         preload: 'http://localhost:5023/Conceal-Network'
       }
     })
-  
+    compactWin.setMenuBarVisibility(false)
     compactWin.loadURL('http://localhost:5023/Conceal-Network')
   }
 //opening
