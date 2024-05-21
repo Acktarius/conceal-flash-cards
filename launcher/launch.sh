@@ -4,18 +4,14 @@
 #Copyright (c) 2024, Acktarius
 ##################################################################
 
+#declarations functions
+trap "trap - SIGTERM && kill 0" SIGINT SIGTERM EXIT
 
-#functions
-function nodeIndex () {
-node index.js
-sleep 1
-}
-
-electron() {
-npm exec electron ./electron/main.js
-}
-
+#main
 
 set -e
-nodeIndex &
-electron
+
+node index.js &
+nodeIndexPID=$!
+npm exec electron ./electron/main.js
+kill -15 ${nodeIndexPID}

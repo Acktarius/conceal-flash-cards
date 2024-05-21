@@ -1,6 +1,6 @@
 {
   "name": "conceal-flash-cards",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "learn about Conceal Network with flash cards",
   "main": "index.js",
   "scripts": {
