@@ -1,5 +1,6 @@
 # conceal-flash-cards
-learn about cryptocurrency and blockchain and Conceal Network in particular, using Flash Cards
+Pedagogic tool to learn about cryptocurrency and blockchain and Conceal Network in particular, using Flash Cards format.
+
 
 # Install 
 ## Ubuntu or Debian
