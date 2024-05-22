@@ -23,8 +23,8 @@ click on icon, it will open an electron window.
 
 * to run:  
 
-*in powershel, within conceal-flash-cards folder*
+*in powershel, within conceal-flash-cards folder*  
 `node index.js`  
 and in your favorite web browser, visit (http://localhost:5023/)  
-to exit:
+* to exit:  
 "Ctrl+C"  
