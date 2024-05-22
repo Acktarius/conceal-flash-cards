@@ -16,7 +16,7 @@ that will create an icon for main user (id=1000)
 click on icon, it will open an electron window.  
 
 ## Windows
-*in powershell*    
+*in powershell, and in the folder of your choice*    
 `git clone https://github.com/Acktarius/conceal-flash-cards`  
 `cd conceal-flash-cards`  
 `npm install`  
