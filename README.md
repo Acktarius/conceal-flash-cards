@@ -3,7 +3,7 @@ learn about cryptocurrency and blockchain and Conceal Network in particular, usi
 
 # Install 
 ## Ubuntu or Debian
-*in terminal*  
+*in terminal, and in the folder of your choice*  
 `git clone https://github.com/Acktarius/conceal-flash-cards`  
 `cd conceal-flash-cards`  
 `source install.sh`  
